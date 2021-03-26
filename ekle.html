@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	
+<!-- Mirrored from viabot.xyz/ekle.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Mar 2021 07:06:50 GMT -->
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="assets/images/viabot-yuvarlak-138x138.png" type="image/x-icon">
+        <meta name="description" content="Via Bot; Güvenli, Hızlı, Kolay, Gelişmiş Discord Botu!">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Via Bot</title>
+        <meta http-equiv="refresh" content="10;URL=https://discord.com/oauth2/authorize?client_id=659458312529510406&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fdiscord.gg%2FhqJDk69&amp;permissions=2147483647&amp;scope=bot">
+        <script async src="../arc.io/widget.min.js#bN3wYq3m" type="ffbb370916de5d8107765e54-text/javascript"></script>
+    </head>
+
+<body>
+<script type="ffbb370916de5d8107765e54-text/javascript">
+var Saniye = 10;
+
+function countDown() {
+Saniye--;
+if (Saniye == -01) {
+Saniye = 59;
+}
+if (Saniye<=9) { Saniye = "0" + Saniye; }
+time = Saniye;
+if (document.getElementById) { theTime.innerHTML = time; }
+SD=window.setTimeout("countDown();", 1000);
+if (Saniye == "00") { Saniye = "00"; window.clearTimeout(SD); }
+}
+
+function addLoadEvent(func) {
+var oldonload = window.onload;
+if (typeof window.onload != 'function') {
+window.onload = func;
+} else {
+window.onload = function() {
+if (oldonload) {
+oldonload();
+}
+func();
+}
+}
+}
+
+addLoadEvent(function() {
+countDown();
+});
+</script>
+
+<style>
+.timeClass {
+font-family:arial,verdana,helvetica,sans-serif;
+font-weight:normal;
+font-size:100pt;
+}
+
+html {
+    height:100%;
+}
+
+body {
+height:100%;
+background-color: #36393F;
+
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+ 
+-webkit-box-align: center; -moz-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+ 
+-webkit-box-pack: center; -moz-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+}
+
+::-webkit-scrollbar {
+        display: none;
+        visibility: hidden;
+        opacity: 0
+}
+</style>
+
+<font face="tahoma" size="6" color="white"><center><span id="theTime" class="timeClass"></span></center><br><center>Saniye sonra sayfaya yönlendirileceksiniz! Lütfen bekleyin...</center></font>
+
+<script src="../ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="ffbb370916de5d8107765e54-|49" defer=""></script></body>
+
+<!-- Mirrored from viabot.xyz/ekle.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Mar 2021 07:06:50 GMT -->
+</html>
